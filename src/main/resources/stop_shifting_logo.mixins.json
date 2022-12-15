@@ -1,12 +1,14 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "me.maximumpower55.stop_shifting_logo",
+  "package": "me.maximumpower55.stop_shifting_logo.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
   ],
   "client": [
-    "TitleScreenMixin"
+    "GuiComponentMixin",
+    "RenderSystemMixin",
+    "TitleScreenAccessor"
   ],
   "injectors": {
     "defaultRequire": 1

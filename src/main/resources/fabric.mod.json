@@ -13,7 +13,7 @@
     "stop_shifting_logo.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.14.9",
-    "minecraft": "1.19.*"
+    "fabricloader": ">=0.7.4",
+    "minecraft": ">=1.19"
   }
 }
