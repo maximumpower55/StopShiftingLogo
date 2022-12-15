@@ -1,38 +1,19 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "stop_shifting_logo",
   "version": "${version}",
-
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Stop Shifting Logo",
+  "description": "Please stop mojank:tm:",
   "authors": [
-    "Me!"
+    "Maximumpower55"
   ],
-  "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
-  },
-
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
-
-  "environment": "*",
-  "entrypoints": {
-    "main": [
-      "net.fabricmc.example.ExampleMod"
-    ]
-  },
+  "license": "MIT",
+  "environment": "client",
   "mixins": [
-    "modid.mixins.json"
+    "stop_shifting_logo.mixins.json"
   ],
-
   "depends": {
-    "fabricloader": ">=0.14.11",
-    "fabric-api": "*",
-    "minecraft": "~1.19.3",
-    "java": ">=17"
-  },
-  "suggests": {
-    "another-mod": "*"
+    "fabricloader": ">=0.14.9",
+    "minecraft": "1.19.*"
   }
 }
